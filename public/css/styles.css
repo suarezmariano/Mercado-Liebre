@@ -1,0 +1,79 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #ebebeb;
+}
+
+header {
+    background-color: #EAC926;
+}
+
+div.burger-menu{
+    text-align: center;
+}
+
+div.burger-menu i{
+    margin: 20px 0px;
+    width: 40px;
+    height: 40px;
+    background-color: #0044AA;
+    color: #FFF;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+main {
+    width: 90%;
+    margin: 0 auto;
+}
+
+p {
+    font-size: 12px;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+h3,
+.description {
+    color: #666;
+}
+
+.price {
+    font-size: 18px;
+}
+
+.discount,
+.description {
+    font-size: 16px;
+}
+
+footer {
+    background-color: #fff;
+    color: #666;
+    padding: 20px 5%;
+}
+
+footer i {
+    color: blue;
+    font-size: 2em;
+    padding: 10px 0;
+}
+
+footer article {
+    text-align: center;
+    margin: 20px 0px;
+    
+}
+
+.copyright {
+    text-align: left;
+    
+}
