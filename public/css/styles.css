@@ -18,8 +18,9 @@ header {
 }
 
 
-header img {
-    width: 50%;
+header img,
+header div.search-box {
+    max-width: 50%;
 }
 
 
