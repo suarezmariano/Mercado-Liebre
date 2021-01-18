@@ -14,7 +14,7 @@
         <div class="main-header-top-bar">
             <img src="/images/logo-mercado-liebre.svg" alt="Logo">
             <div class="search-box">
-                <input type="search" id="site-search" name="search">
+                <input type="search" id="search" name="search">
                 <button><i class="fas fa-search"></i></button>
             </div>
             <h2 class="copy-header"><i class="fas fa-hand-holding-usd"></i>Comprá en cuotas sin tarjeta de crédito</h2>
@@ -44,8 +44,71 @@
     </section>
 
     <main>
-     
-
+        <section class="register-and-login">
+            <div>
+                <label>Ingresá tus datos</label>
+            </div>
+            <div>
+                <input type="text" name="name" id="name" placeholder="Nombre y Apellido" minlength="5">
+            </div>
+            <div>
+                <input type="text" name="user" id="user" placeholder="Usuario">
+            </div>
+            <div>
+                <input type="email" name="email" id="email" placeholder="Correo Electronico">
+            </div>
+            <div>
+                <label>Fecha de Nacimiento</label>
+            </div>
+            <div>
+            <input type="date" name="date" id="date">
+            </div>
+            <div>
+                <input type="text" name="adress" id="adress" placeholder="Domicilio">
+            </div>
+            <div>
+                <label>Perfil de Usuario</label>
+            </div>
+            <div>
+            <input type="radio" name="user-profile" value="comprador" checked><label>Comprador</label>
+            <input type="radio" name="user-profile" value="vendedor"><label>Vendedor</label>
+            </div>
+            <div>
+                <label>Intereses</label>
+            </div>
+            <div>
+                <input type="checkbox" name="interest" value="electro" checked><label>Electro</label>
+            </div>
+            <div>
+                <input type="checkbox" name="interest" value="moda"><label>Moda</label>
+            </div>
+            <div>
+                <input type="checkbox" name="interest" value="hogar"><label>Hogar</label>
+            </div>
+            <div>
+                <input type="checkbox" name="interest" value="jugueteria"><label>Juguetería</label>
+            </div>
+            <div>
+                <input type="checkbox" name="interest" value="vida-sana"><label>Vida Sana</label>
+            </div>
+            <div>
+                <label>Fecha de Nacimiento</label>
+            </div>
+            <div>
+               Foto de Usuario:      
+               <input type="file" name="archivosubido">
+            </div>
+            <div>
+                <input type="password" name="password" id="password" placeholder="Contraseña">
+            </div>
+            <div>
+                <input type="password" name="password2" id="password2" placeholder="Confirmar Contraseña">
+            </div>
+            <div>
+                <button type="reset">Borrar</button>
+                <button class="submit-button" type="submit">Crear</button>
+            </div>
+        </section>
     </main>
     <footer>
         <article>
