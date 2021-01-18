@@ -92,7 +92,7 @@ div.last-visit,
 div.offers{
     display: flex;
     flex-wrap: wrap;
-}
+    }
 
 
 article div.main-article {
@@ -211,10 +211,39 @@ footer article {
         margin: 0 5px;
     }
     
+    main section {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    main section. {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .section-title {
+        flex-grow: 1;
+        width: 100%;
+        
+    }
+
     main section article {
         box-shadow: 0px 0px 10px rgb(100, 100, 100);
+        max-width: 40%;
+        
     }
-    .descripcion {
+    .description {
         display: flex;
     }
+}
+
+@media (min-width: 1280px) {
+    
+    main section article {
+        max-width: 20%;
+        
+    }
+    
 }
